@@ -8,7 +8,7 @@ const port = process.env.PORT;
 
 // Define a route to handle GET requests to the root URL
 app.get('/', (req, res) => {
-  res.send('Hello, Duniya!'); // Respond with "Hello, World!"
+  res.status(201).send('Hello, Duniya!'); // Respond with "Hello, World!"
 });
 
 // Start the server and listen on the specified port
